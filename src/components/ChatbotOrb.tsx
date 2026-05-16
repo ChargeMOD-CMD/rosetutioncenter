@@ -41,14 +41,14 @@ export default function ChatbotOrb() {
         data-cursor="hover"
       >
         <span className="absolute inset-0 rounded-full bg-rose-gradient opacity-50 blur-xl" />
-        {open ? <X className="relative h-6 w-6 text-white" /> : <Sparkles className="relative h-6 w-6 text-white" />}
+        {open ? <X className="relative h-6 w-6 text-white" /> : <Bot className="relative h-6 w-6 text-white" />}
       </button>
 
       {open && (
         <div className="fixed bottom-28 right-6 z-50 w-[min(380px,calc(100vw-2rem))] overflow-hidden rounded-3xl glass shadow-2xl">
           <div className="flex items-center gap-3 border-b border-border/60 p-4">
             <div className="grid h-10 w-10 place-items-center rounded-full bg-rose-gradient ring-glow">
-              <Sparkles className="h-4 w-4 text-white" />
+              <Bot className="h-4 w-4 text-white" />
             </div>
             <div>
               <div className="text-sm font-semibold">ROSE AI Learning Mentor</div>
