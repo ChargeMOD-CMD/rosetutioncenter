@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Sparkles, X, Send } from "lucide-react";
+import { Bot, X, Send } from "lucide-react";
 
 const suggestions = [
   "Recommend a study plan",
